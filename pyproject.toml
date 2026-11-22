@@ -1,0 +1,12 @@
+[project]
+name = "intraday-float"
+version = "0.1.0"
+description = "Treasury float simulator: what an acquirer must hold at the open, sized against the payout clock instead of the daily net"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
